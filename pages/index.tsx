@@ -14,7 +14,7 @@ export default function Home() {
           transition={{ duration: 0.6 }}
         >
           <h1 className="text-4xl md:text-5xl font-bold text-blue-800 mb-4">Luther Bell</h1>
-          <p className="text-lg text-blue-700 mb-6">Software Engineer • AI Developer • Open to Work</p>
+          <p className="text-lg text-blue-700 mb-6">Software Engineer</p>
         </motion.header>
 
         <motion.section

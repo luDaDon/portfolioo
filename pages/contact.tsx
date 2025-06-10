@@ -11,7 +11,6 @@ export default function Contact() {
         <ul className="space-y-2 text-gray-800">
           <li>📧 luthbell4@gmail.com</li>
           <li>💼 <a href="https://www.linkedin.com/in/luther-bell/" className="text-blue-600 hover:underline">LinkedIn</a></li>
-          <li>💻 <a href="https://github.com/yourgithub" className="text-blue-600 hover:underline">GitHub</a></li>
         </ul>
       </main>
       <Footer />

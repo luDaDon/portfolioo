@@ -10,14 +10,9 @@ export default function Projects() {
         <h1 className="text-3xl font-bold mb-6">All Projects</h1>
         <div className="grid gap-6 md:grid-cols-2">
           <ProjectCard
-            title="Meta Hub"
-            description="NBA 2K animation database app built with Spring Boot and React."
-            link="#"
-          />
-          <ProjectCard
-            title="Highlight Generator"
-            description="Video AI tool that auto-generates exciting game highlights using FFmpeg + Python."
-            link="#"
+            title="NBA Player Stats Scraper"
+            description="This full-stack web app scrapes NBA player statistics and displays them in a clean, searchable UI. Built with a Python + Flask backend that scrapes and serves up real player data, and a Next.js frontend styled with Tailwind CSS. Users can easily search for players and view key stats like points, assists, and rebounds."
+            link="https://sports-scraper.vercel.app/"
           />
           {/* Add more projects here */}
         </div>
