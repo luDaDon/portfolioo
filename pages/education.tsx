@@ -25,8 +25,15 @@ export default function Experience() {
                         transition = {{ delay: 0.2, duration: 0.5 }}
                         className="bg-gray-50 border border-gray-200 rounded-xl p-6 shadow"
                     >
-                        <h1 className="text-xl font-semibold text-red-700">St. John's University - Queens, NY</h1>
-                        <h4 className="text-xl font-semibold text-red-700">B.S. in Computer Science / Cyber Security — May 2021 </h4>
+                        <h1 className="text-xl font-semibold text-red-700">Bachelor of Science in Computer Science/Cyber Security</h1>
+                        <h1 className="text-xl font-semibold text-red-700">St. John’s University — Queens, New York - May 2021 </h1>
+                        <ul className="list-disc list-inside text-gray-700 space-y-1"> 
+                            <li>Relevant  Coursework:  Data  Structures  &  Algorithms,  Software  Engineering,  Web 
+Development, Database Systems</li>
+                            <li>Senior Capstone Project: Built a full-stack vehicle reporting system that allowed users 
+to use the car’s resources to perform tasks on the internet</li>
+                            <li>Activities: Hackathons, Coding Clubs, Open Source Contributor</li>
+                        </ul>
                     </motion.div>
                 </section>
             </main>
