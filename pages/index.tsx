@@ -15,11 +15,11 @@ export default function Home() {
         >
           <h1 className="text-4xl md:text-5xl font-bold text-blue-800 mb-4">Luther Bell</h1>
           <p className="text-lg font-bold text-blue-700 mb-6">Software Engineer</p>
-          <p className="text-lg text-blue-700 mb-6">I'm a software engineer with a passion for building clean, efficient, and user-friendly web applications. With experience in both frontend and backend development, I enjoy bringing ideas to life — whether it's a data-driven sports analytics tool or a full-stack web app.
+          <p className="text-lg text-blue-700 mb-6">I&apos;m a software engineer with a passion for building clean, efficient, and user-friendly web applications. With experience in both frontend and backend development, I enjoy bringing ideas to life — whether it&apos;s a data-driven sports analytics tool or a full-stack web app.
 
-I specialize in Java, Python, JavaScript/TypeScript, and modern frameworks like React, Next.js, and Spring Boot. I’m currently exploring the intersection of software, sports, and machine learning to create engaging digital experiences.
+I specialize in Java, Python, JavaScript/TypeScript, and modern frameworks like React, Next.js, and Spring Boot. I&apos;m currently exploring the intersection of software, sports, and machine learning to create engaging digital experiences.
 
-When I’m not coding, you can find me experimenting with Raspberry Pi builds, creating full-stack apps, or diving into the latest in AI tech.</p>
+When I&apos;m not coding, you can find me experimenting with Raspberry Pi builds, creating full-stack apps, or diving into the latest in AI tech.</p>
         </motion.header>
 
         <motion.section
