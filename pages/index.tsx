@@ -17,16 +17,16 @@ export default function Home() {
             About Me:
           </h1>
           <p className="text-lg text-gray-700 leading-relaxed">
-            I'm a <b>software engineer</b> with a passion for building clean, efficient, and user-friendly web applications.
-            My experience in both frontend and backend development allows me to bring ideas to life — whether it's a
+            I&apos;m a <b>software engineer</b> with a passion for building clean, efficient, and user-friendly web applications.
+            My experience in both frontend and backend development allows me to bring ideas to life — whether it&apos;s a
             data-driven sports analytics tool or a full-stack web app.
             <br /><br />
             I specialize in Java, Python, JavaScript/TypeScript, and modern frameworks like React, Next.js, Spring Boot,
-            .NET, and always open to learning new languages and technologies. I'm currently exploring the intersection
+            .NET, and always open to learning new languages and technologies. I&apos;m currently exploring the intersection
             of software, sports, and machine learning to create engaging digital experiences.
             <br /><br />
-            When I'm not coding, you can find me experimenting with Raspberry Pi builds, creating full-stack apps, or
-            diving into the latest in AI tech. I've also been diving into game development with Unity too!
+            When I&apos;mnot coding, you can find me experimenting with Raspberry Pi builds, creating full-stack apps, or
+            diving into the latest in AI tech. I&apos;ve also been diving into game development with Unity too!
           </p>
         </motion.header>
 
