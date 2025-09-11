@@ -14,7 +14,7 @@ export default function Certificates() {
           transition={{ duration: 0.6 }}
         >
           <h1 className="text-4xl font-bold text-blue-800 mb-4">Certifications</h1>
-          <p className="text-gray-700">Here’s are some of the certifications that I have.</p>
+          <p className="text-gray-700">Here are some of the certifications that I have!</p>
         </motion.header>
 
         <section className="space-y-8">
