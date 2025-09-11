@@ -24,8 +24,8 @@ export default function Experience() {
             transition={{ delay: 0.2, duration: 0.5 }}
             className="bg-white border border-gray-200 rounded-xl p-6 shadow-md"
           >
-            <h2 className="text-xl font-semibold text-blue-700">General Motors</h2>
-            <p className="text-sm text-gray-500 mb-2">Software Engineer · 2023 – Present</p>
+            <h2 className="text-xl font-semibold text-blue-700">Software Engineer</h2>
+            <p className="text-sm text-gray-500 mb-2"><b>General Motors</b> · 2023 – Present</p>
             <ul className="list-disc list-inside text-gray-700 space-y-2">
               <li>Modernized legacy Java and .NET backend systems by implementing security 
 upgrades, enhancing data integrations, and improving service reliability. </li>
@@ -58,8 +58,8 @@ migration capabilities. </li>
             transition={{ delay: 0.2, duration: 0.5 }}
             className="bg-white border border-gray-200 rounded-xl p-6 shadow-md"
           >
-            <h2 className="text-xl font-semibold text-blue-700">General Motors</h2>
-            <p className="text-sm text-gray-500 mb-2">Software Test Development Engineer · 2022 – 2023</p>
+            <h2 className="text-xl font-semibold text-blue-700">Software Test Development Engineer</h2>
+            <p className="text-sm text-gray-500 mb-2"><b>General Motors</b> · 2022 – 2023</p>
             <ul className="list-disc list-inside text-gray-700 space-y-2">
               <li>Developed Java-based automation frameworks using Selenium to validate 
 backend functionality in service APIs. </li>
