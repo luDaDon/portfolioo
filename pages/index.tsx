@@ -41,7 +41,7 @@ export default function Home() {
             {[
               { title: "Languages", content: "Java, C#, Python, JavaScript, TypeScript, HTML/CSS, Bootstrap" },
               { title: "Frameworks", content: "Spring Boot, .NET Core, .NET Framework, React, Next.js, Selenium" },
-              { title: "DevOps & CI/CD", content: "Azure DevOps, GitHub Actions, YAML Pipelines, Docker, PowerShell" },
+              { title: "DevOps & Cloud", content: "Azure DevOps, GitHub Actions, YAML Pipelines, Docker, PowerShell, AWS (EC2, S3, IAM, RDS, Lambda)" },
               { title: "Tools & IDEs", content: "Visual Studio Enterprise, Visual Studio Code, Eclipse, IntelliJ IDEA, Git Bash, EGit, VMware, RedHat OpenShift, VirtualBox" },
               { title: "Testing", content: "UI & API Automation, Manual QA, JMeter, TFS" },
               { title: "Databases", content: "Oracle SQL Developer, Microsoft SQL Server, PostgreSQL" },
