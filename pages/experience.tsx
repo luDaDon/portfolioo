@@ -76,11 +76,11 @@ early development phases to reduce integration issues. </li>
         </section>
 
         <a
-          href="/Resume_2025.pdf"
+          href="/Resume_2026.pdf"
           download
           className="inline-block mt-6 bg-blue-600 text-white px-6 py-3 rounded-xl font-semibold shadow hover:bg-blue-700 transition"
         >
-          📄 Download Resume
+          Download Resume
         </a>
       </main>
       <Footer />
