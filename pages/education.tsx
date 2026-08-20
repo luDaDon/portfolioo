@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-export default function Experience() {
+export default function Education() {
   return (
     <>
       <Navbar />
@@ -14,7 +14,9 @@ export default function Experience() {
           transition={{ duration: 0.6 }}
         >
           <h1 className="text-4xl font-bold text-blue-800 mb-4">Education</h1>
-          <p className="text-gray-700">Here’s a look at my education.</p>
+          <p className="text-gray-600 text-lg max-w-2xl">
+            My academic background and the experiences that built the foundation for my career in software engineering.
+          </p>
         </motion.header>
 
         <section className="space-y-8">
@@ -24,19 +26,33 @@ export default function Experience() {
             transition={{ delay: 0.2, duration: 0.5 }}
             className="bg-white border border-gray-200 rounded-xl p-6 shadow-md"
           >
-            <h2 className="text-xl font-semibold text-red-700">Bachelor of Science in Computer Science / Cyber Security</h2>
-            <p className="text-lg font-medium text-red-700 mb-2">St. John’s University — Queens, New York — May 2021</p>
-            <ul className="list-disc list-inside text-gray-700 space-y-2">
-              <li>
-                <span className="font-semibold">Relevant Coursework:</span> Data Structures & Algorithms, Software Engineering, Web Development, Database Systems
-              </li>
-              <li>
-                <span className="font-semibold">Senior Capstone Project:</span> Built a full-stack vehicle reporting system that allowed users to use the car’s resources to perform tasks on the internet.
-              </li>
-              <li>
-                <span className="font-semibold">Activities:</span> Hackathons, Coding Clubs, Open Source Contributor
-              </li>
-            </ul>
+            <h2 className="text-2xl font-bold text-blue-700">
+              Bachelor of Science in Computer Science & Cyber Security
+            </h2>
+
+            <p className="mt-2 text-lg text-gray-600">
+              St. John's University • Queens, NY
+            </p>
+
+            <p className="text-gray-500">
+              Graduated May 2021
+            </p>
+            <div className="flex flex-wrap gap-3 mt-3">
+              {[
+                "Data Structures",
+                "Algorithms",
+                "Software Engineering",
+                "Web Development",
+                "Database Systems",
+              ].map((course) => (
+                <span
+                  key={course}
+                  className="px-3 py-1 rounded-full bg-blue-100 text-blue-700 text-sm"
+                >
+                  {course}
+                </span>
+              ))}
+            </div>
           </motion.div>
         </section>
       </main>
